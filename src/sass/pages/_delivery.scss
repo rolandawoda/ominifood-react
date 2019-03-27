@@ -1,0 +1,19 @@
+.features {
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+  &__boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+  }
+  
+  &__long-copy {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,49 @@
+.planbox {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 25.33%;
+  box-shadow: 0 2px 2px #efefef;
+
+  &__header,
+  &__body {
+    padding: 5px;
+    border-bottom: 1px solid #e8e8e8;
+
+  }
+
+  &__amount {
+    font-size: 300%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: #e67e22;
+
+    span {
+      font-size: 30%;
+    }
+  }
+
+  &__price {
+    font-size:80%; 
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__icon {
+    height: 1rem;
+    margin-right: 1rem;
+  }
+  
+  &__item {
+    padding: 5px 0;
+  }
+
+  &__footer {
+    text-align:  center;
+    padding: .5rem;
+  }
+
+
+
+}

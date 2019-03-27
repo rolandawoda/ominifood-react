@@ -1,0 +1,18 @@
+.meal {
+  width: 25%;
+  overflow: hidden;
+  background-color: #000;
+  
+  &__image {
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.18);
+    transition: transform 0.5s, opacity 0.5s ;
+
+    &:hover {
+      transform: scale(1.07);
+      opacity: 1;
+    }
+  }
+ 
+}

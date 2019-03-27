@@ -1,0 +1,53 @@
+.form {
+  width:60%;
+  margin: auto;
+
+
+  &__group {
+    margin-bottom: 2rem;
+  }
+
+  *:focus { outline: none;}
+
+  input[type=text],
+  input[type=email],
+  select, 
+  textarea {
+    width:100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+}
+
+&__flex {
+  display: flex;
+}
+
+input[type=checkbox] {
+  padding: 10px 5px 10px 0;
+}
+
+input[type=submit] {
+    display: inline-block;
+    font-weight:300;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    border-radius: 20rem;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+
+    &{
+      background-color: #e67e22;
+      border:1px solid #e67e22;
+      color:#fff;
+    }
+
+    &:hover {
+      background-color: #cf6d17;
+    }
+}
+textarea {
+  height: 100px;
+}
+
+}

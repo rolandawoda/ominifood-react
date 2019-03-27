@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+
+  &__body {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  &__dashboard {
+    width: 15vw;
+    max-width: 15vw;
+    background-color: skyblue;
+    transition: all .3s;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    overflow-y: auto;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: .5rem;
+  }
+
+  &__header {
+    height: 5rem;
+    background-color: rgb(42, 42, 42);
+  }
+
+  &__fold {
+    max-width: 5vw;
+    overflow: hidden;
+  }
+}

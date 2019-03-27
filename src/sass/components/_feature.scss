@@ -1,0 +1,16 @@
+.feature {
+
+  &-box {
+    width: 20%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+
+    &__icon {
+      height: 5rem;
+      width: 5rem;
+      align-self: center;
+      margin-bottom: 2rem;      
+    }
+  }
+}
